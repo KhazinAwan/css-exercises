@@ -5,8 +5,10 @@ body {
 
 .card {
   width: 400px;
+  height: auto;
   background: #fff;
   margin: 16px auto;
+  padding: 16px;
 }
 
 .title {
@@ -15,13 +17,20 @@ body {
 
 .content {
   background: #e3f4ff;
+  margin: 12px 0px;
+  padding: 6px;
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  padding: 6px;
 }
 
 button {
+  display: block;
   background: white;
   border: 1px solid #eee;
+  margin: 0 auto;
+  padding: 6px 14px;
 }
